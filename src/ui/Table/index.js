@@ -21,8 +21,8 @@ const Table = ({ headers, rows }) => {
 };
 
 Table.propTypes = {
-  headers: PropTypes.element.isRequired,
-  rows: PropTypes.element.isRequired
+  headers: PropTypes.node.isRequired,
+  rows: PropTypes.node.isRequired
 };
 
 export default Table;

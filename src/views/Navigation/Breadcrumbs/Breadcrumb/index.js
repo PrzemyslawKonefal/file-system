@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Link } from "../../../../ui/Link";
+import { InternalLink } from "../../../../ui/Links/InternalLink";
 
 const Breadcrumb = ({ folderName, path }) => {
-  return <Link to={path}>{folderName}</Link>;
+  return <InternalLink to={path}>{folderName}</InternalLink>;
 };
 
 Breadcrumb.propTypes = {
